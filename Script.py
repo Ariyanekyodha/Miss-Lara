@@ -678,11 +678,11 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/Aj_The_Warrior'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a>
 
--Dev 2 <a href='https://t.me/File_to_link_Aj_bot'>VJ</a>
+-Dev 2 <a href='https://t.me/File_to_link_Aj_bot'>AJ</a>
 
 -Dev 3 <a href='https://t.me/File_to_link_Aj_bot>Jᴏᴇʟ </> TɢX</a>
 
-- Dev 4 <a href='https://t.me/File_to_link_Aj_bot'>TEAM VJ</a>
+- Dev 4 <a href='https://t.me/File_to_link_Aj_bot'>TEAM AJ</a>
 """
 
 
