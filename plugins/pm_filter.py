@@ -348,6 +348,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     if not files:
         await client.send_message(req_channel, f"#REQUEST_LOGS \n\n**CONTENT NAME:**`{search}` \n**REQUIRED BY:**{message.from_user.first_name} \n**USER ID:**{message.frome_user.id}", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏹 Mark As Done 🎯", callback_data="close_data")]]))
         await query.answer("🚫 𝗡𝗼 𝗙𝗶𝗹𝗲 𝗪𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱 🚫", show_alert=1)
+        await message.reply_text(text=f"Hello {message.from_user.first_name} 😊 . \n\n Your Request Has Been Send To Our Admin ! \n\n ❤️ THANK YOU ❤️ ")
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
