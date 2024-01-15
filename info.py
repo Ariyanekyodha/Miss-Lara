@@ -46,7 +46,8 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002080361966')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
+req_channel = environ.get('REQ_CHANNEL_ID', '-1002080361966')
+REQ_CHANNEL = int(req_channel) if req_channel and id_pattern.search(req_channel) else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aj_movieBook:jitu3240@cluster0.hdimszu.mongodb.net/?retryWrites=true&w=majority")
