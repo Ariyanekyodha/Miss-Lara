@@ -56,8 +56,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'fc20aaa21af047255b29c828fd39c5005522146a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://linkpays.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd872a57b2b4597935ac5ea5d61eff940e258be9a')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
